@@ -1,0 +1,21 @@
+{
+  "name": "traffictimer",
+  "version": "1.0.0",
+  "description": "Determine the best time to depart by timing your commutes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "timer",
+    "traffic",
+    "app"
+  ],
+  "author": "Joshua Fishman",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nedb": "^1.8.0"
+  }
+}
