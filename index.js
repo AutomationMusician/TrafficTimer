@@ -31,7 +31,7 @@ app.post('/arrivetime', (request, response) => {
 });
 
 app.post('/currentTrip', (request, response) => {
-  trips.findOne({end: {$exists: false }}).sort({startSecs: 1}).exec((err, data) => {
+  trips.findOne({end: {$exists: false}}).sort({startSecs: 1}).exec((err, data) => {
     if (err) {
       console.log(err);
       response.send("An error in querying the answer database has occurred");
@@ -56,5 +56,5 @@ function pad2(num) {
   if (num >= 10)
     return String(num);
   else
-    return "0" + num
+    return "0" + num;
 }
