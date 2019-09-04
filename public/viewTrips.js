@@ -39,9 +39,8 @@ function pad2(num) {
   if (num >= 10)
     return String(num);
   else
-    return "0" + num
+    return "0" + num;
 }
-
 
 main();
 /*
